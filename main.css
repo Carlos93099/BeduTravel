@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE9CF;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.figura {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-nav > a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
