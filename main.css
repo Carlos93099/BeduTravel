@@ -35,3 +35,20 @@ header {
     text-decoration: none;
     font-size: 20px;
 }
+
+.lista-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+
+.link {
+    margin: 100px;
+    text-decoration: none;
+    color: white;
+}
