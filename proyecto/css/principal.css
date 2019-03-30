@@ -1,0 +1,34 @@
+/*******variables***********/
+/* #FFE9CF;*/
+/************mixin******************/
+cuerpo {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: green;
+  width: 100%;
+  justify-content: center;
+}
+
+.figura {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.lista-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=principal.css.map */

@@ -1,0 +1,59 @@
+/*******variables***********/
+
+$color-rgba-one: rgba(0,0,0,0.9);
+$color-rgba-two: rgba(0,0,0,0.6);
+$color-one: black;
+$color-two: green;/* #FFE9CF;*/
+$color-three: white;
+$color-four: #572364;
+$espacio-entre: justify-betwee;
+$display-one: flex;
+$centrar: center;
+$screen-full: 100%;
+
+/************mixin******************/
+
+@mixin cuerpo {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+cuerpo {
+    @include cuerpo;
+}
+
+@mixin uno ($typeBody) {
+    @if $typeBody == "cabeza"
+    {
+        display: $display-one;
+        background-color: $color-two;
+        width: $screen-full;
+        justify-content: $centrar;
+    }
+    @else if $typeBody == "nav-bar"
+    {
+        display: $display-one;
+        align-items: $centrar;
+        justify-content: $centrar;
+    }
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    @include uno("cabeza");
+}
+
+.figura {
+    display: $display-one;
+    align-items: $centrar;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-nav {
+    @include uno("nav-bar");
+    margin: 0;
+    padding: 0;
+}

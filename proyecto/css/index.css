@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE9CF;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.figura {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-nav > a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lista-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+
+.link {
+    margin: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.buscar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.entrada-datos {
+    height: 50px;
+    width: 600px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.boton-buscar {
+    height: 54px;
+    width: 54px;
+    margin: 5px;
+    padding: 0;
+}
+
+.fa-search:before {
+    /*text-shadow: 2px 2px 8px #ff0000;*/
+    font-size: 40px;
+}
+
+.fa-search:hover {
+    color: black;
+}
+
+h2 {
+    margin-left: 175px;
+}
+
+.fa-chevron-right:before {
+    margin: 0;
+    align-self: end;
+    font-size: 70px;
+}
+
+.fa-chevron-left:before {
+    margin: 0;
+    align-self: flex-end;
+    font-size: 70px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container-figura {
+    margin:0;
+}
+
+.container-logoi {
+    align-self: center;
+    justify-self: end;
+}
+
+.container-logod {
+    align-self: center;
+}
+
+.fa-chevron-right:hover {
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.fa-chevron-left:hover {
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.container-link {
+    position: relative;
+    display: block;
+}
+
+.name-place {
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+    right: 0;
+    bottom:  0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    color: white;
+}
+
+.container-link:hover .name-place {
+    display: flex;
+}
+
+.word:hover {
+    color: #572364;
+}
+
+/*@media screen and (max-width: 1024px) {
+    .lista-div {
+        width: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lista-div {}
+
+
+}*/
+
